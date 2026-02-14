@@ -20,6 +20,7 @@ let negValue = -value;
 let str1 = "Arpan";
 let str2 = " Ghosh";
 let str3 = str1 + str2;
+console.log(`${str1} ${str2}`);
 // console.log(str3);
 
 // console.log("1" + 2);
