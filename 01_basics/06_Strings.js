@@ -1,4 +1,4 @@
-const gameName = new String("Arpangh-osh");
+const gameName = "ABBA";
 
 console.log(gameName[0]);
 console.log(gameName.__proto__);
@@ -24,4 +24,12 @@ console.log(url.replace("%20", "-"));
 console.log(url.includes("arpan"));
 console.log(url.includes("rahul"));
 
-console.log(gameName.split("a"));
+let str1 = gameName;
+console.log(str1);
+let str2 = gameName.split("").reverse().join("");
+console.log(str2);
+if (str1 === str2) {
+  console.log("Palindrome");
+} else {
+  console.log("Not palindrome");
+}
