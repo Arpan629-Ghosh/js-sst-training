@@ -64,3 +64,6 @@ console.log(text1.replace("WORLD", "ARPAN"));
 
 //Converting a string into an array
 console.log(text1.split(" , "));
+
+let stri = "The rain in SPAIN stays mainly in the plain";
+console.log(stri.match(/ain/gi));

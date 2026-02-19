@@ -6,3 +6,6 @@ for (let i = 0; i < len; i++) {
 }
 
 console.log(text);
+
+const str = "  Arpan   Ghosh  ";
+console.log(str.trim().split(/\s+/));

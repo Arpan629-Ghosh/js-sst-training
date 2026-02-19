@@ -39,3 +39,7 @@ const myFunction = function () {
 };
 
 console.log(typeof bigNumber);
+
+const arr = [20, 40, 50, 60, 70, 80];
+const result = arr.filter((temp) => temp > 40 && temp < 70);
+console.log(result);
