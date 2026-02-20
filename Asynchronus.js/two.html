@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>ARPAN</h1>
+    <button id="#start">start</button>
+    <button id="#stop">stop</button>
+  </body>
+  <script>
+    function sayName() {
+      console.log(Date.now());
+    }
+
+    let genarateDate;
+    document.getElementById("#start").addEventListener("click", function () {
+      genarateDate = setInterval(sayName, 1000);
+    });
+    document.getElementById("#stop").addEventListener("click", function () {
+      clearInterval(genarateDate);
+    });
+  </script>
+</html>

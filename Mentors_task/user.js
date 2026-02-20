@@ -143,8 +143,8 @@ const users = [
   },
 ];
 
-// const cleanedUsers = cleanUserData(users);
-// console.log(cleanedUsers);
+const cleanedUsers = cleanUserData(users);
+console.log(cleanedUsers);
 // const emailReport = validateEmail(users);
 // console.log(emailReport);
 
@@ -152,7 +152,7 @@ const users = [
 // console.log(userNameGenarator(users));
 
 // console.log(cityReport(users));
-console.log(searchUser(users, "pri"));
+// console.log(searchUser(users, "pri"));
 
 // const str = "  Arpan Ghosh  ";
 // const result = str.trim().split(" ")[0];
