@@ -1,5 +1,5 @@
 async function loadData() {
-  let response = await fetch("missing.json");
+  let response = await fetch("https://jsonplaceholder.typicode.com/users");
 
   if (!response.ok) {
     console.log("HTTP Error:", response.status);
