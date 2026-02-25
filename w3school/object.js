@@ -87,3 +87,20 @@ myFather.nationality = "English";
 myMother.changeName = function (name) {
   this.lastName = name;
 };
+
+// Object.groupBy
+
+const fruit = [
+  { name: "apples", quantity: 300 },
+  { name: "bananas", quantity: 500 },
+  { name: "oranges", quantity: 200 },
+  { name: "kiwi", quantity: 150 },
+];
+
+function myCallback({ quantity }) {
+  return quantity > 200 ? "OK" : "low";
+}
+
+const solution = Object.groupBy(fruit, myCallback);
+
+console.log(solution);
